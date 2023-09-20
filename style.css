@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://www.aceroform.com.mx/wp-content/uploads/2020/10/banner-construccion.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.container{
+    padding: 0px 10%;
+    background-color: rgba(253, 253, 253, 0.795);
+    margin: 0px 5% 0px 5%;
+    text-align: auto;
+}
+
+footer{
+    background-color: rgba(253, 253, 253, 0.795);
+}
+
+#titulo-1{
+    text-align: center;
+    color:white;
+    padding: 40px 40px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 40px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+#titulo-2,#titulo-3{
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgba(87, 87, 87, 0.521);
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+#parrafo-1, #parrafo-2, #parrafo-3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.filtro{
+    display: none;
+}
+
+.maps-cent{
+    display: flex;
+    justify-content: center;
+    
+}
+.maps-cent iframe{
+    margin: 25px 0px;
+    width: 100%;
+}
+
+.contacto{
+    display: flex;
+    background-color: rgba(52, 55, 58, 0.589);
+    flex-direction: row
+}
+@media only screen and (max-width: 1100px) {
+    /*For desktop:*/ 
+   .contacto{
+    flex-direction: column;
+   }
+   .form-desc, .form-send{
+    align-content:  center;
+    text-align: center;
+    }
+    
+   
+ }
+.form-desc{
+    padding: 100px;
+    margin: 10px;
+
+}
+.form-desc a{
+    text-decoration: none;
+    color: black;
+}
+#formulario{
+    margin: 30px 100px;
+    padding: 40px;
+    color: white;
+    align-content: flex-start;
+    border: 3px rgba(44, 44, 44, 0.658) solid;
+}
+
+#titulo-form{
+    color:white;
+    text-decoration: underline;
+}
+#nombre, #correo{
+    padding: 5px;
+}
+#mensaje{
+    padding: 30px;
+    justify-content: start;
+}
+
